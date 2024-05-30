@@ -1,0 +1,132 @@
+<html>
+      <head>
+      <title>jc hast</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      </head>
+      <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a class="navbar-brand" href="index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="pedidos.html">PEDIDOS<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="preguntas frecuentes.html">PERFUMES</a>
+              </li>
+              <li class="nav-item active">
+               <a class="nav-link" href="colecciones.html">COLECCIONES<span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item active">
+               <a class="nav-link" href="acerca de nosotros.html">PEDIDOS HUGO BOSS<span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item active">
+               <a class="nav-link" href="productos.html">SUCURSALES<span class="sr-only">(current)</span></a>
+             </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
+            </form>
+          </div>
+        </nav>
+      
+    <div class="container">
+      <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="data:image/png;base64,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" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+           
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="BANNER_web_1_2_1445x.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="CEPILLO.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+           
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+        </div>
+    </div>
+<div class="container">
+<div class="row">
+<div class="col">
+<font zise="10" color="red"><b>PEDIDOS AGREGUE SUS DATOS</b></font>
+<form>
+<div class="form-row">
+<div class="form-group col-md-6">
+  <label for="inputEmail4">Correo</label>
+  <input type="email" class="form-control" id="inputEmail4">
+</div>
+<div class="form-group col-md-6">
+  <label for="inputPassword4">Contrase&ntilde;a</label>
+  <input type="password" class="form-control" id="inputPassword4">
+</div>
+</div>
+<div class="form-group">
+<label for="inputAddress">Direcci&oacute;n</label>
+<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+</div>
+<div class="form-group">
+<label for="inputAddress2">Direcci&oacute;n 2</label>
+<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+</div>
+<div class="form-row">
+<div class="form-group col-md-6">
+  <label for="inputCity">Ciudad</label>
+  <input type="text" class="form-control" id="inputCity">
+</div>
+<div class="form-group col-md-4">
+  <label for="inputState">Estado</label>
+  <select id="inputState" class="form-control">
+    <option selected>Escoje...</option>
+    <option>...</option>
+  </select>
+</div>
+<div class="form-group col-md-2">
+  <label for="inputZip">C&oacute;digo Postal</label>
+  <input type="text" class="form-control" id="inputZip">
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="gridCheck">
+  <label class="form-check-label" for="gridCheck">
+    Activar
+  </label>
+</div>
+</div>
+<button type="submit" class="btn btn-primary">Enviar Datos</button>
+</form>
+</div>
+</div>
+</div>
+  </body>
+  </html>
